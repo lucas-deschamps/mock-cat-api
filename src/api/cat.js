@@ -5,7 +5,12 @@ const catRouter = Router();
 const catFacts = [
   'Petro is cute.\n',
   'Cats are cute.\n',
-  'Cats are agile.\n'
+  'Cats are agile.\n',
+  'Petro es mi esposo.\n',
+  'Petro usa traje.\n',
+  'Petro esta curvoso.\n',
+  'Michel es hermoso.\n',
+  'Todos deben amar a Michel.\n'
 ];
 
 const getRandomNumber = () => Math.floor(Math.random() * 3);
